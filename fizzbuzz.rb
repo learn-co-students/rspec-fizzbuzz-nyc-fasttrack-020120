@@ -1,2 +1,11 @@
-# Don't forget! This file needs to be 'required' in its spec file
-# See README.md for instructions on how to do this
+def fizzbuzz(i)
+ if i % 3 == 0 
+   "Fizz"
+ elsif i % 15 == 0 
+   "Buzz"
+ else i % 5 == 0 
+  "FizzBuzz"
+  end
+end
+
+
